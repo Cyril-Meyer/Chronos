@@ -1,3 +1,9 @@
+void clearDisplay()
+{
+  oled.clear();
+  setDisplay("", "", "", "");  
+}
+
 bool strCmp10(const char *s1, const char *s2)
 {
   return !(s1[0] == s2[0] &&

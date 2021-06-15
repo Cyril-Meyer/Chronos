@@ -131,7 +131,7 @@ void gamePause()
     {
       digitalWrite(P1_LED_PIN, LOW);
       digitalWrite(P2_LED_PIN, LOW);
-      oled.clear();
+      clearDisplay();
       mode = 0;
     }
   }
@@ -139,13 +139,12 @@ void gamePause()
   {
     digitalWrite(P1_LED_PIN, HIGH);
     digitalWrite(P2_LED_PIN, HIGH);
-    oled.clear();
     setDisplayLine(0, "          ");
     setDisplayLine(1, "  P1 WIN  ");
     setDisplayLine(2, "          ");
     setDisplayLine(3, "          ");
     victoryMusic();
-    oled.clear();
+    clearDisplay();
     digitalWrite(P1_LED_PIN, LOW);
     digitalWrite(P2_LED_PIN, LOW);
     mode = 0;
@@ -154,13 +153,12 @@ void gamePause()
   {
     digitalWrite(P1_LED_PIN, HIGH);
     digitalWrite(P2_LED_PIN, HIGH);
-    oled.clear();
     setDisplayLine(0, "          ");
     setDisplayLine(1, "  P2 WIN  ");
     setDisplayLine(2, "          ");
     setDisplayLine(3, "          ");
     victoryMusic();
-    oled.clear();
+    clearDisplay();
     digitalWrite(P1_LED_PIN, LOW);
     digitalWrite(P2_LED_PIN, LOW);
     mode = 0;
