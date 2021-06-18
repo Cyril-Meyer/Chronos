@@ -20,7 +20,9 @@ The current code was developed to run on an Arduino Nano with an ATmega168.
 
 **Circuit**  
 
-*pinout**
+![circuit schematics](media/circuit.png)
+
+*pinout*
 * 5 : buzzer
 * 6 : led player 2
 * 7 : led player 1
@@ -34,3 +36,8 @@ The current code was developed to run on an Arduino Nano with an ATmega168.
 * 1 x passive buzzer
 
 **Example**
+|    |    |
+|:--:|:--:|
+| ![](media/front_panel.jpg) | ![](media/circuit.jpg) |
+| ![](media/stand_by.jpg) | ![](media/menu.jpg) |
+| ![](media/play.jpg) | |
